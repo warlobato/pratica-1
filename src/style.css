@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* --------------------------------------------------- */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.container {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.container .resultado {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    border-radius: 20px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.container .resultado .pontuacao {
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.container .resultado .pontuacao .ponto {
+    font-size: 70px;
+}
+
+.container .resultado .pontuacao .de-cem {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.container .resultado .qualidade {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container .resultado .motivacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+/* --------------------------------------------------- */
+
+.container .sumario {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 100%;
+}
+
+.container .sumario h2 {
+    align-self: flex-start;
+    margin-left: 15%;
+}
+
+.iconame {
+    display: flex;
+    gap: 5px;
+}
+
+.areas {
+    width: 70%;
+    font-size: 14px;
+}
+
+.areas .topico {
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.numeros {
+    font-weight: 200;
+}
+
+.numeros span {
+    font-weight: 700;
+}
+
+.topico.reacao {
+    background-color: hsla(0, 100%, 67%, 0.200);
+}
+
+.reacao .titulo {
+    color: hsl(0, 100%, 67%);
+}
+
+.topico.memoria {
+    background-color: hsl(39, 100%, 56%, 0.200);
+}
+
+.memoria .titulo {
+    color: hsl(39, 100%, 56%);
+}
+
+.topico.verbal {
+    background-color: hsl(166, 100%, 37%, 0.200);
+}
+
+.verbal .titulo {
+    color: hsl(166, 100%, 37%);
+}
+
+.topico.visual {
+    background-color: hsl(234, 85%, 45%, 0.200);
+}
+
+.visual .titulo {
+    color: hsl(234, 85%, 45%);
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    padding: 10px;
+    border-radius: 20px;
+    width: 70%;
+    text-align: center;
+}
+
+.btn:hover {
+    transition: 0.3s;
+    transform: scale(1.05)
+}
